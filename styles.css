@@ -7,8 +7,9 @@ ul {
     display: flex;
     gap : 20px ;
 }
-.subheader img {
-    height: 250px ;
+.subheader img { 
+    border-radius: 10px;
+    max-width: 70%;
 }
 a {
     text-decoration: none;
@@ -19,7 +20,7 @@ a {
     font-weight: 900;
 }
 .header {
-    background-color: #1F2937;
+    background-color: rgb(28, 76, 81);
     color : white ;
     padding : 20px ;
 }
@@ -29,12 +30,13 @@ a {
 }
 .subheader {
     display: flex;
-    gap : 150px ;
     justify-content: center;
     margin : 50px ;
+    align-items: center;
 }
-.subheader .Context img {
-    flex-basis: 550px ;
+.subheader .image {
+    display: flex;
+    justify-content: flex-end;
 }
 .subheader .Context {
     display: flex;
@@ -64,17 +66,18 @@ body {
     display: flex;
     gap : 20px ;
     padding : 20px ;
-    margin : 30px ;
+    margin : 50px ;
     text-align: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 15px;
     flex-wrap : wrap;
 }
 .img-cards img {
-    height: 150px ;
-    width : 150px;
-    border : 2px solid #3882f6;
+    height: 250px ;
+    width : 250px;
     border-radius: 8px;
+    border: 2px solid black;
+    margin : 10px ;
 }
 .card {
     flex-basis: 10px;
@@ -109,7 +112,7 @@ body {
   border-radius: 10px;
   padding : 40px ;
   background-color: #3882f6;
-  width : 65% ;
+  width : 70% ;
   color : white ;
   display: flex;
   justify-content: center;
