@@ -121,3 +121,12 @@ body {
     border : 2px solid white ;
     width : 150px ;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color : white ;
+    padding :45px ;
+    justify-content:  center;
+    align-items: center;
+}
