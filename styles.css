@@ -15,7 +15,7 @@ a {
     color: white;
 }
 .logo {
-    font-size : 20px ;
+    font-size : 24px ;
     font-weight: 900;
 }
 .header {
@@ -33,7 +33,7 @@ a {
     justify-content: center;
     margin : 50px ;
 }
-.subheader .Context , img {
+.subheader .Context img {
     flex-basis: 550px ;
 }
 .subheader .Context {
@@ -109,7 +109,7 @@ body {
   border-radius: 10px;
   padding : 40px ;
   background-color: #3882f6;
-  width : 80% ;
+  width : 65% ;
   color : white ;
   display: flex;
   justify-content: center;
@@ -129,4 +129,13 @@ body {
     padding :45px ;
     justify-content:  center;
     align-items: center;
+}
+.Context h1 {
+    font-size : 48px ;
+}
+.container-1 h1 {
+    font-size : 36px ;
+}
+.Context p {
+    font-size : 18px ;
 }
