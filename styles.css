@@ -42,11 +42,82 @@ a {
     gap : 20px ;
     flex-basis: 570px;
 }
-.subheader button {
+button {
     background-color: #3882f6 ;
     border : none ;
     width : 90px ;
     color : white ;
     height : 30px ;
     border-radius: 8px;
+    cursor:pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.body .heading {
+    text-align: center;
+    margin : 30px ;
+}
+.img-cards {
+    display: flex;
+    gap : 20px ;
+    padding : 20px ;
+    margin : 30px ;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    flex-wrap : wrap;
+}
+.img-cards img {
+    height: 150px ;
+    width : 150px;
+    border : 2px solid #3882f6;
+    border-radius: 8px;
+}
+.card {
+    flex-basis: 10px;
+}
+.body .container-2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #E5E7EB ;
+     padding : 100px ;
+}
+
+.container-2 p {
+    font-size : 30px ; 
+    font-style: italic;
+    font-weight: lighter;
+    color : #1F2937 ; 
+    width : 50% ;
+}
+.container-2 h4 {
+   display: flex;
+   width : 50% ;
+   justify-content: flex-end;
+}
+
+.container-3 {
+    display: flex;
+    padding : 100px ;
+    justify-content: center;
+}
+.container-3 .box {
+  border-radius: 10px;
+  padding : 40px ;
+  background-color: #3882f6;
+  width : 80% ;
+  color : white ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap : 40px ;
+}
+
+.box button {
+    border : 2px solid white ;
+    width : 150px ;
 }
