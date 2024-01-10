@@ -1,0 +1,52 @@
+* {
+    margin : 0px ; 
+    padding :0px ;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap : 20px ;
+}
+.subheader img {
+    height: 250px ;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    font-size : 20px ;
+    font-weight: 900;
+}
+.header {
+    background-color: #1F2937;
+    color : white ;
+    padding : 20px ;
+}
+.topbar {
+    display: flex;
+    justify-content: space-around;
+}
+.subheader {
+    display: flex;
+    gap : 150px ;
+    justify-content: center;
+    margin : 50px ;
+}
+.subheader .Context , img {
+    flex-basis: 550px ;
+}
+.subheader .Context {
+    display: flex;
+    flex-direction: column;
+    gap : 20px ;
+    flex-basis: 570px;
+}
+.subheader button {
+    background-color: #3882f6 ;
+    border : none ;
+    width : 90px ;
+    color : white ;
+    height : 30px ;
+    border-radius: 8px;
+}
