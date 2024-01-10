@@ -127,7 +127,7 @@ body {
 
 .footer {
     display: flex;
-    background-color: #1F2937;
+    background-color:rgb(28, 76, 81);
     color : white ;
     padding :45px ;
     justify-content:  center;
